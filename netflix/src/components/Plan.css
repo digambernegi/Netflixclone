@@ -1,0 +1,33 @@
+.Plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+.Plans pre {
+  color: tomato;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.plans__Details:hover {
+  opacity: 1;
+}
+
+.subscribe__Btn {
+  padding: 10 20px;
+  font: 1rem;
+  color: white;
+  text-align: right;
+  background-color: tomato;
+  font-weight: 600;
+  float: right;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.plans__Details--disabled {
+  background-color: gray !important;
+}

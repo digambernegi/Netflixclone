@@ -1,0 +1,67 @@
+.profile__Screen {
+  height: 100vh;
+  color: white;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.profile__ScreenBody {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: auto;
+  padding-top: 5%;
+  max-width: 800px;
+}
+
+.profile__ScreenBody > h1 {
+  font-size: 40px;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+
+.profile__ScreenLogo {
+  display: flex;
+}
+
+.profile__ScreenLogo > img {
+  height:80px;
+}
+
+.profile__ScreenDetails {
+  color: white;
+  margin-left: 25px;
+  flex: 1;
+}
+
+.profile__ScreenDetails > h2 {
+  background-color: #228183;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.profile__ScreenPlan {
+  margin-top: 20px;
+}
+
+.profile__ScreenPlan > h3 {
+  border-bottom: 1px solid blue;
+  padding-bottom: 10px;
+}
+
+.profile__ScreenPlan > button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 3%;
+  width: 100%;
+  color: white;
+  float: right;
+  background-color: tomato;
+  cursor: pointer;
+  border: none;
+}
+
+
+

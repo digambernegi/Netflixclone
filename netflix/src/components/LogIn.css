@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login__Screen {
+  position: relative;
+  height: 100%;
+  background-image: url("./netflixbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login_Gradient {
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.login__Logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.login__Button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  color: whitesmoke;
+  background-color: tomato;
+  border: none;
+  cursor: pointer;
+}
+
+.login__Body {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  padding: 20px;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.login__Body > h1 {
+  font-family: normal normal 700 50px/55px "Netflix Sans", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.login__Body > h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 5px;
+  margin-bottom: 30px;
+}
+
+.login__Body > h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+input {
+  padding: 12px;
+  line-height: 3px;
+  margin-left: -7rem;
+  margin-top: 1rem;
+  outline: none;
+  width: 32%;
+  border: none;
+}
+
+.get__Started {
+  position: fixed;
+  padding: 12px 20px;
+  color: whitesmoke;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
